@@ -4,8 +4,10 @@
     android:background="@android:color/black">
 
     <ImageView
+        android:id="@+id/iv_s_fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/simpsons"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:src="@drawable/simpsons" />
+
 </RelativeLayout>

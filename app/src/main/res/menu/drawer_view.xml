@@ -2,8 +2,32 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="South Park" />
-    <item android:title="Family Guy" />
-    <item android:title="The Simpsons" />
-    <item android:title="Futurama" />
+
+    <item android:title="@string/cartoon_wars">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item android:title="South Park"
+                    android:icon="@drawable/ic_south_park"
+                    android:id="@+id/nav_sp_fragment" />
+                <item android:title="Family Guy"
+                    android:icon="@drawable/ic_family_guy"
+                    android:id="@+id/nav_fg_fragment"/>
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/simpsorama">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item android:title="The Simpsons"
+                    android:icon="@drawable/ic_simpsons"
+                    android:id="@+id/nav_s_fragment"/>
+                <item android:title="Futurama"
+                    android:icon="@drawable/ic_futurama"
+                    android:id="@+id/nav_f_fragment" />
+            </group>
+        </menu>
+    </item>
+
 </menu>
